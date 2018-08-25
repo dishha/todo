@@ -69,8 +69,15 @@ TEMPLATES = [
     },
 ]
 
+#wsgi application
 WSGI_APPLICATION = 'todo.wsgi.application'
 
+#static files
+STATIC_PATH = os.path.join(BASE_DIR,'static')
+STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
+STATICFILES_DIRS = (
+    STATIC_PATH,
+)
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
@@ -120,4 +127,3 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.1/howto/static-files/
 
 STATIC_URL = '/static/'
-STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
