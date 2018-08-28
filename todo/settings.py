@@ -78,12 +78,12 @@ STATIC_PATH = os.path.join(BASE_DIR,'static')
 #STATICFILES_STORAGE = 'whitenoise.django.GzipManifestStaticFilesStorage'
 # Simplified static file serving.
 # https://warehouse.python.org/project/whitenoise/
-STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
+#STATICFILES_STORAGE = 'whitenoise.storage.CompressedManifestStaticFilesStorage'
 
 
-STATICFILES_DIRS = (
-    STATIC_PATH,
-)
+# STATICFILES_DIRS = (
+#     STATIC_PATH,
+# )
 
 # Database
 # https://docs.djangoproject.com/en/2.1/ref/settings/#databases
