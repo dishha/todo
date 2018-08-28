@@ -15,7 +15,7 @@ djangorestframework-jwt==1.11.0
 gcloud==0.17.0
 get==1.0.3
 googleapis-common-protos==1.5.3
-gunicorn==19.6.0
+gunicorn==19.9.0
 httpie==0.9.9
 httplib2==0.11.3
 idna==2.7
