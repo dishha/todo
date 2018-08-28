@@ -25,7 +25,7 @@ SECRET_KEY = 'f($d_wq*e60v@jrc9+*ub$6z)b1u(b7gfsuzb@_9*4+t(oaxs$'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ["fathomless-bayou-98692.herokuapp.com"]
 
 
 # Application definition
