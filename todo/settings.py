@@ -90,8 +90,12 @@ STATIC_PATH = os.path.join(BASE_DIR,'static')
 
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'ENGINE': 'django.db.backends.postgresql',
+        'NAME': 'my database'
+        #'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'USERNAME':'todo',
+        'PASSWORD': 'todo123456',
+        ''
     }
 }
 import dj_database_url
