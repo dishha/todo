@@ -14,7 +14,7 @@ class create(APIView):
         serializer = self.serializer_class(data=request.data)
         if serializer.is_valid():
             serializer.save()
-            return Response(data=serializer.data)
+            return Response(serializer.data)
 
 
 
